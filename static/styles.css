@@ -1,0 +1,140 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1E90FF; /* Blue background */
+}
+
+/* Landing Page */
+.landing {
+    background: url("images/bg.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Login Page */
+.login {
+    background: url("images/login-bg.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Detection Page */
+.detect {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for Detection Section */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Small Image on Top */
+.detect-image {
+    width: 150px; /* Small Image */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Overlay */
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Buttons */
+.btn {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: darkblue;
+}
+
+/* Signup Link */
+.signup-link {
+    color: #FFD700; /* Gold color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Form Styling */
+form input {
+    width: 200px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    margin-top: 10px;
+}
+/* 🔎 DETECTION PAGE */
+.detect {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* White Box */
+.overlay1 {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 45%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Container */
+.image-container {
+    width: 100%;
+    height: 250px;
+}
+/* X-ray Image as Background */
+.xray-image {
+    background: url("../static/images/detect.jpg") no-repeat center center/contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+/* File Input Below Image */
+.file-input {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}

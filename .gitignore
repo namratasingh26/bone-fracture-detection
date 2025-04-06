@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+backend/venv/
+
+# Ignore large files
+backend/model/bone_fracture_model.h5
+*.dll
+*.lib
+*.pyd

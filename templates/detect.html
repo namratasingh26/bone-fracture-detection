@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fracture Detection</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="../static/script.js" defer></script>
+</head>
+<body class="detect">
+    <div class="overlay1">
+        <h2>Upload X-ray for Detection</h2>
+        <div class="image-container">
+            <div class="xray-image"></div>
+        </div>
+        <br>
+        <input type="file" id="fileInput" class="file-input" accept="image/*">
+        
+        <!-- Preview image below -->
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <img id="preview" src="" alt="Uploaded Image Preview"
+                 style="max-width: 300px; border-radius: 10px; display: none;" />
+        </div>
+        <br>
+        <button class="btn" onclick="detectFracture()">Detect Fracture</button>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
